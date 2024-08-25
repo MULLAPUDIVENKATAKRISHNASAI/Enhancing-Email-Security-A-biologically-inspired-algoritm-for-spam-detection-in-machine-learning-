@@ -1,0 +1,332 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Global properties ======================================================== */
+a[href^="tel:"] {
+    color: inherit;
+    text-decoration: none;
+}
+
+::selection {
+    background: #e6e6e6 !important;
+    color: #333;
+}
+
+::-moz-selection {
+    background: #e6e6e6 !important;
+    color: #333;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: underline;
+    outline: none
+}
+
+a:hover {
+    color: #388e3c;
+    text-decoration: none;
+    outline: none
+}
+
+body {
+    background: #263238;
+    border: 0;
+    font: 14px 'Roboto', sans-serif;
+    color: #fff;
+    line-height: 1.5;
+    /* min-width: 320px; */
+}
+
+#main {
+    margin: 0 auto;
+    position: relative;
+}
+
+#inner {
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    position: relative;
+}
+
+/* ============================= header ====================== */
+header {
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.logo_wrapper {
+    text-align: center;
+    float: left;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.top1 {
+    background: #3949ab;
+    border-radius: 7px 7px 0 0;
+}
+
+.top2 {
+    background: #1e88e5;
+    border-radius: 0 0 7px 7px;
+}
+
+#slider2 .img {
+    position: relative;
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+
+#slider2 .txt1 {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    z-index: 3;
+    background: #e91e63;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 34px;
+    padding: 18px 36px;
+    border-radius: 0 100px 100px 0;
+}
+
+.slogan {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.slogan .txt1 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 22px;
+    color: #e91e63;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.slogan .txt2 {
+    font-weight: 400;
+    text-align: right;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ff9800;
+    padding-right: 60px;
+}
+
+/* ============================= content ====================== */
+#content {
+    background: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 7px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* ============================= footer ====================== */
+footer {
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #263238;
+    color: #fff;
+}
+
+.bot1 {
+    padding-bottom: 25px;
+}
+
+.logo_wrapper2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.logo_wrapper3 {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.pad_bottom {
+    padding-left: 20px;
+}
+
+.bot2 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2px;
+    background: #1e88e5;
+    background-image: linear-gradient(to bottom, #1e88e5, #0d47a1);
+    color: #fff;
+}
+
+.copyright {
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+/* ============================= main menu ====================== */
+.navbar_ {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 30;
+    height: 60px;
+    background: #0d47a1;
+    background-image: linear-gradient(to bottom, #0d47a1, #002171);
+}
+
+.navbar_ .navbar-inner_ {
+    padding: 0;
+    margin: 0;
+    border: none;
+    min-height: inherit;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    filter: none;
+}
+
+.navbar_ .nav {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 30;
+}
+
+.navbar_ .nav > li {
+    position: relative;
+    display: block;
+    float: left;
+    min-height: 1px;
+}
+
+.navbar_ .nav > li > a {
+    padding: 20px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: none;
+    text-transform: uppercase;
+    line-height: 14px;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar_ .nav > li > a:hover {
+    color: #4caf50;
+    background-color: transparent;
+    border-bottom: 3px solid #4caf50;
+}
+
+.navbar_ .nav > li.active > a {
+    color: #4caf50;
+    background-color: transparent;
+    border-bottom: 3px solid #4caf50;
+}
+
+.dropdown-menu_ {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: #1e88e5;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 0;
+    box-shadow: none;
+    width: 200px;
+}
+
+.dropdown-menu_ > li > a {
+    padding: 10px 20px;
+    color: #ffffff;
+    border-bottom: 1px solid #004d40;
+    background: #1e88e5;
+}
+
+.dropdown-menu_ > li > a:hover {
+    color: #4caf50;
+    background: #002171;
+    border-bottom: 1px solid #004d40;
+}
+
+.dropdown-menu_ > li:last-child > a {
+    border-bottom: none;
+}
+
+.dropdown-menu_ > li.divider {
+    background-color: #1e88e5;
+    height: 1px;
+    margin: 5px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #004d40;
+}
+
+.dropdown-menu_ > li.divider:last-child {
+    display: none;
+}
+
+.dropdown-menu_ .divider > a {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+}
+
+.dropdown-menu_ .divider > a:hover {
+    background: transparent;
+}
+
+.dropdown-menu_ .active > a,
+.dropdown-menu_ .active > a:hover {
+    background: #002171 !important;
+    color: #4caf50 !important;
+}
+
+.navbar-toggle {
+    margin: 10px 0;
+    margin-right: 15px;
+    padding: 9px 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: none;
+    background: transparent !important;
+}
+
+/* ============================= responsive ====================== */
+@media (max-width: 992px) {
+    .navbar_ .nav > li > a {
+        padding: 20px 10px;
+    }
+
+    .navbar-toggle {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar_ .navbar-inner_ {
+        padding: 0 15px;
+    }
+
+    .navbar_ .nav > li > a {
+        padding: 20px 15px;
+    }
+}
